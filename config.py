@@ -39,7 +39,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/gojo_bot_update")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_Hogwarts")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/nothing_bots_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/SnH.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/c5f2ad150d31cd52a1468-8db2d9211aa01f0e34.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/Sng.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/bbd2b4ee5ce3c44ccd8a9-07ab326d819796ba37.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/SnH.jpg"
-STATS_IMG_URL = "https://envs.sh/Sng.jpg"
-TELEGRAM_AUDIO_URL = "https://envs.sh/SnH.jpg"
-TELEGRAM_VIDEO_URL = "https://envs.sh/Sng.jpg"
-STREAM_IMG_URL = "https://envs.sh/Sng.jpg"
-SOUNCLOUD_IMG_URL = "https://envs.sh/SnH.jpg"
-YOUTUBE_IMG_URL = "https://envs.sh/SnH.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/Sng.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/SnH.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/Sng.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/45885dc76d39b37881acf-74099d200cb2b1beea.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/45885dc76d39b37881acf-74099d200cb2b1beea.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/7e1842713df6bcefa5fab-a932802fc81b6a3aee.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/c5f2ad150d31cd52a1468-8db2d9211aa01f0e34.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/bbd2b4ee5ce3c44ccd8a9-07ab326d819796ba37.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/45885dc76d39b37881acf-74099d200cb2b1beea.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/45885dc76d39b37881acf-74099d200cb2b1beea.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/7e1842713df6bcefa5fab-a932802fc81b6a3aee.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/c5f2ad150d31cd52a1468-8db2d9211aa01f0e34.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/c5f2ad150d31cd52a1468-8db2d9211aa01f0e34.jpg"
 
 
 def time_to_seconds(time):
