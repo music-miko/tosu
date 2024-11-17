@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9999))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1356469075))
+OWNER_ID = int(getenv("OWNER_ID", 6848223695))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/c5f2ad150d31cd52a1468-8db2d9211aa01f0e34.jpg"
+    "START_IMG_URL", "https://envs.sh/SnH.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/bbd2b4ee5ce3c44ccd8a9-07ab326d819796ba37.jpg"
+    "PING_IMG_URL", "https://envs.sh/SnH.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/45885dc76d39b37881acf-74099d200cb2b1beea.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/45885dc76d39b37881acf-74099d200cb2b1beea.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/7e1842713df6bcefa5fab-a932802fc81b6a3aee.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/c5f2ad150d31cd52a1468-8db2d9211aa01f0e34.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/bbd2b4ee5ce3c44ccd8a9-07ab326d819796ba37.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/45885dc76d39b37881acf-74099d200cb2b1beea.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/45885dc76d39b37881acf-74099d200cb2b1beea.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/7e1842713df6bcefa5fab-a932802fc81b6a3aee.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/c5f2ad150d31cd52a1468-8db2d9211aa01f0e34.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/c5f2ad150d31cd52a1468-8db2d9211aa01f0e34.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/SnH.jpg"
+STATS_IMG_URL = "https://envs.sh/SnH.jpg"
+TELEGRAM_AUDIO_URL = "https://envs.sh/SnH.jpg"
+TELEGRAM_VIDEO_URL = "https://envs.sh/SnH.jpg"
+STREAM_IMG_URL = "https://envs.sh/SnH.jpg"
+SOUNCLOUD_IMG_URL = "https://envs.sh/SnH.jpg"
+YOUTUBE_IMG_URL = "https://envs.sh/SnH.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/SnH.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/SnH.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/SnH.jpg"
 
 
 def time_to_seconds(time):
